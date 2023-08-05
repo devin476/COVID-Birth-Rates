@@ -13,10 +13,11 @@ def googleDataCall(state):
 
 def stateloop():
     states = ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DC", "DE", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"]
+#Makes data extraction concurrent instead of simultaneous
     with ThreadPoolExecutor() as executor:
         googleDl = list(executor.map(googleDataCall, states))
     googleData = pd.concat(googleDl, ignore_index=True)
-
+#This is the data filter, removing columns deemed unnecessary 
     unusedColumns = list(googleData.columns[2:7]) + list(googleData.columns[47:65]) + list(googleData.columns[67:75]) + list(googleData.columns[108:614])
     newData = googleData.drop(unusedColumns, axis=1)
 

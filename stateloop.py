@@ -10,9 +10,17 @@ def googleDataCall(state):
         return state_data
     except Exception as e:
         print(f"Failed to download data for state: {state}. Error: {e}")
-states = ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DC", "DE", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"]
-with ThreadPoolExecutor() as executor:
+
+def stateloop():
+    states = ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DC", "DE", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"]
+    with ThreadPoolExecutor() as executor:
     googleDl = list(executor.map(googleDataCall, states))
-googleData = pd.concat(googleDl, ignore_index=True)
-print(googleData)
+    googleData = pd.concat(googleDl, ignore_index=True)
+
+    unusedColumns = list(googleData.columns[2:7]) + list(googleData.columns[47:65]) + list(googleData.columns[67:75]) + list(googleData.columns[108:614])
+    newData = googleData.drop(unusedColumns, axis=1)
+
+    return newData
+    
+
 

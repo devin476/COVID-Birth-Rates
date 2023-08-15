@@ -19,18 +19,21 @@
 6. Epidemiology
 	1. Immunocompromised
 	2. Obesity
-	3. Autoimmune Disorders
-	4. Respiratory issues
 7. Single/Married Household
 	1. Number of current Children
 
 ## Dataset(s) or API(s) to be Used:
 
 [Google Open Data](https://health.google.com/covid-19/open-data/raw-data)
+
 [Human Fertility](https://www.humanfertility.org/Data/STFF)
+
 [CDC COVID-19 Data](https://data.cdc.gov/NCHS/Provisional-COVID-19-Deaths-by-Sex-and-Age/9bhg-hcku)
+
 [NIH Open-Access Data](https://datascience.nih.gov/covid-19-open-access-resources)
+
 [Census](https://www.census.gov/library/stories/2023/05/family-households-still-the-majority.html)
+
 
 ## Breakdown of Tasks:
 

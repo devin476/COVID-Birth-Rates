@@ -1,38 +1,41 @@
+
 # COVID-Birth-Rates
-The Effect of COVID-19 on Birth Rates
-Project Title: The Effect of COVID-19 on Birth Rates
 
+## The Effect of COVID-19 on Birth Rates
 
-Project Description/Outline:
-	Potential effects of COVID-19 Pandemic on birth rates
+**Project Title**: The Effect of COVID-19 on Birth Rates
 
-Research Question(s) to Answer:
+**Project Description/Outline**: Potential effects of COVID-19 Pandemic on birth rates
 
-What were the birth rates before/during/after the pandemic in the USA?
-Vaccinated or Not
-Pfizer/Moderna/J&J
-State/Region
-Access to Resources (Rural/Urban)
-Income
-Age
-Epidemiology
-Immunocompromised
-Obesity
-Autoimmune Disorders
-Respiratory issues
-Single/Married Household
-Number of current Children
+**Research Question(s) to Answer**:
 
-Dataset(s) or API(s) to be Used:
+1. What were the birth rates before/during/after the pandemic in the USA?
+2. Vaccinated?
+	1. Pfizer/Moderna/J&J?
+3. State/Region?
+	1. Access to Resources (Rural/Urban)
+4. Income
+5. Age
+6. Epidemiology
+	1. Immunocompromised
+	2. Obesity
+	3. Autoimmune Disorders
+	4. Respiratory issues
+7. Single/Married Household
+	1. Number of current Children
 
-https://health.google.com/covid-19/open-data/raw-data
+## Dataset(s) or API(s) to be Used:
 
-https://www.humanfertility.org/Data/STFF
+[Google Open Data](https://health.google.com/covid-19/open-data/raw-data)
+[Human Fertility](https://www.humanfertility.org/Data/STFF)
+[CDC COVID-19 Data](https://data.cdc.gov/NCHS/Provisional-COVID-19-Deaths-by-Sex-and-Age/9bhg-hcku)
+[NIH Open-Access Data](https://datascience.nih.gov/covid-19-open-access-resources)
+[Census](https://www.census.gov/library/stories/2023/05/family-households-still-the-majority.html)
 
-Rough Breakdown of Tasks:
+## Breakdown of Tasks:
 
-Sully: Age, Epidemiology
-Devin: State/Region
-Gaby: Vaccinated or Not
-Nestor: Immunocompromised
-Shloka: Single/Married Household
+- **Sully**: Age, Epidemiology
+- **Devin**: State/Region
+- **Gaby**: Vaccinated or Not
+- **Nestor**: Immunocompromised
+- **Shloka**: Single/Married Household

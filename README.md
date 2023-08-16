@@ -38,6 +38,8 @@
 
 [CDC Fertility Rates](https://www.cdc.gov/nchs/pressroom/sosmap/fertility_rate/fertility_rates.htm)
 
+[U.S. Bureau of Labor Statistics](https://data.bls.gov/timeseries/LNS14000000)
+
 ## Breakdown of Tasks:
 
 - **Sully**: Age, Epidemiology

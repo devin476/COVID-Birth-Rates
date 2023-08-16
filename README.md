@@ -14,14 +14,14 @@
 	1. Pfizer/Moderna/J&J?
 3. State/Region?
 	1. Access to Resources (Rural/Urban)
-4. Income
+4. Economic Impact
 5. Age
 6. Epidemiology
 	1. Immunocompromised
 	2. Obesity
 7. Single/Married Household
 	1. Number of current Children
-
+8. Fertility Rates
 ## Dataset(s) or API(s) to be Used:
 
 [Google Open Data](https://health.google.com/covid-19/open-data/raw-data)
@@ -34,11 +34,16 @@
 
 [Census](https://www.census.gov/library/stories/2023/05/family-households-still-the-majority.html)
 
+[Federal Reserve Bank of Dallas](https://www.dallasfed.org/research/econdata/txu)
+
+[CDC Fertility Rates](https://www.cdc.gov/nchs/pressroom/sosmap/fertility_rate/fertility_rates.htm)
+
+[U.S. Bureau of Labor Statistics](https://data.bls.gov/timeseries/LNS14000000)
 
 ## Breakdown of Tasks:
 
 - **Sully**: Age, Epidemiology
-- **Devin**: State/Region
+- **Devin**: State, Economic Impact
 - **Gaby**: Vaccinated or Not
 - **Nestor**: Immunocompromised
 - **Shloka**: Single/Married Household

@@ -10,17 +10,19 @@
 **Research Question(s) to Answer**:
 
 1. What were the birth rates before/during/after the pandemic in the USA?
-2. Vaccinated?
-	1. Pfizer/Moderna/J&J?
-3. State/Region?
+2. Vaccinated
+	1. Pfizer/Moderna/J&J
+3. State/Region
 	1. Access to Resources (Rural/Urban)
 4. Economic Impact
 5. Age
 6. Epidemiology
 	1. Immunocompromised
 	2. Obesity
+ 	3. Respiratory Issues
 7. Single/Married Household
 	1. Number of current Children
+ 	2. Single vs. Married Family
 8. Fertility Rates
 ## Dataset(s) or API(s) to be Used:
 
@@ -44,6 +46,6 @@
 
 - **Sully**: Age, Epidemiology
 - **Devin**: State, Economic Impact
-- **Gaby**: Vaccinated or Not
-- **Nestor**: Immunocompromised
+- **Gaby**: Vaccination Status
+- **Nestor**: Immunocompromisation
 - **Shloka**: Single/Married Household

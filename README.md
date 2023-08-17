@@ -1,38 +1,51 @@
+
 # COVID-Birth-Rates
-The Effect of COVID-19 on Birth Rates
-Project Title: The Effect of COVID-19 on Birth Rates
 
+## The Effect of COVID-19 on Birth Rates
 
-Project Description/Outline:
-	Potential effects of COVID-19 Pandemic on birth rates
+**Project Title**: The Effect of COVID-19 on Birth Rates
 
-Research Question(s) to Answer:
+**Project Description/Outline**: Potential effects of COVID-19 Pandemic on birth rates
 
-What were the birth rates before/during/after the pandemic in the USA?
-Vaccinated or Not
-Pfizer/Moderna/J&J
-State/Region
-Access to Resources (Rural/Urban)
-Income
-Age
-Epidemiology
-Immunocompromised
-Obesity
-Autoimmune Disorders
-Respiratory issues
-Single/Married Household
-Number of current Children
+**Research Question(s) to Answer**:
 
-Dataset(s) or API(s) to be Used:
+1. What were the birth rates before/during/after the pandemic in the USA?
+2. Vaccinated
+	1. Pfizer/Moderna/J&J
+3. State/Region
+	1. Access to Resources (Rural/Urban)
+4. Economic Impact
+5. Age
+6. Epidemiology
+	1. Immunocompromised
+	2. Obesity
+ 	3. Respiratory Issues
+7. Single/Married Household
+	1. Number of current Children
+ 	2. Single vs. Married Family
+8. Fertility Rates
+## Dataset(s) or API(s) to be Used:
 
-https://health.google.com/covid-19/open-data/raw-data
+[Google Open Data](https://health.google.com/covid-19/open-data/raw-data)
 
-https://www.humanfertility.org/Data/STFF
+[Human Fertility](https://www.humanfertility.org/Data/STFF)
 
-Rough Breakdown of Tasks:
+[CDC COVID-19 Data](https://data.cdc.gov/NCHS/Provisional-COVID-19-Deaths-by-Sex-and-Age/9bhg-hcku)
 
-Sully: Age, Epidemiology
-Devin: State/Region
-Gaby: Vaccinated or Not
-Nestor: Immunocompromised
-Shloka: Single/Married Household
+[NIH Open-Access Data](https://datascience.nih.gov/covid-19-open-access-resources)
+
+[Census](https://www.census.gov/library/stories/2023/05/family-households-still-the-majority.html)
+
+[Federal Reserve Bank of Dallas](https://www.dallasfed.org/research/econdata/txu)
+
+[CDC Fertility Rates](https://www.cdc.gov/nchs/pressroom/sosmap/fertility_rate/fertility_rates.htm)
+
+[U.S. Bureau of Labor Statistics](https://data.bls.gov/timeseries/LNS14000000)
+
+## Breakdown of Tasks:
+
+- **Sully**: Age, Epidemiology
+- **Devin**: State, Economic Impact
+- **Gaby**: Vaccination Status
+- **Nestor**: Immunocompromisation
+- **Shloka**: Single/Married Household
